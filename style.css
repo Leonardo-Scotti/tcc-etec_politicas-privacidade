@@ -83,3 +83,70 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 500px) {
+    header {
+        height: 5rem;
+    }
+
+    header .logo {
+        height: 100%;
+        margin: 0px 3rem;
+    }
+
+    .logo h1 {
+        font-size: 1.1rem;
+    }
+
+    main {
+        flex-grow: 1;
+        margin: 3rem 2rem;
+        margin-bottom: 1.8rem;
+    }
+
+    main h2 {
+        position: absolute;
+        top: 5.5rem;
+        right: auto;
+        left: 4.5rem;
+        font-size: 1.7rem;
+    }
+
+    main h3 {
+        font-size: 1rem;
+    }
+
+    .first-text {
+        gap: 0.5rem;
+    }
+
+    .first-text p {
+        font-size: 0.9rem;
+    }
+
+    .second-text {
+        gap: 0.2rem;
+    }
+    
+    .second-text p {
+        font-size: 0.9rem;
+    }
+    
+    .second-text ul {
+        margin-left: 2rem;
+    }
+
+    ul li {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        height: 3rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+        margin: 0px 2rem;
+        text-align: center;
+    }
+}
